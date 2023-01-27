@@ -1,0 +1,45 @@
+* {
+   box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+body {
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    line-height: 1.2;
+
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 1024px;
+}
+
+nav .container
+
+header, section {
+    background: #1f2937;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+header .logo {
+}
+header ul  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header ul li {
+    padding: 15px;
+}
+
+
+
+
+
+

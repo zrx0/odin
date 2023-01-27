@@ -1,0 +1,71 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    min-height: 400px;
+}
+
+div.sidebar {
+    flex: 1 0 200px;
+    background-color: red;
+}
+div.content {
+    flex: 4;
+    background-color: blue;
+}
+/*.shape {*/
+/*    background-color: #2a6496;*/
+/*    border-radius: 6px 50%;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    margin: 100px;*/
+/*    transition: transform 2s;*/
+/*    opacity: 0.8;*/
+/*}*/
+
+/*.shape:hover {*/
+/*    background-color: #3a87ad;*/
+/*    transform: rotate(720deg) scale(1.5);*/
+/*    opacity: 1.4;*/
+/*}*/
+
+/*.s2 {*/
+/*    background-color: #00DDFF;*/
+/*    transform-origin: right bottom;*/
+/*}*/
+
+/*Start of keyframes*/
+@keyframes jumpin {
+    0% {
+        opacity: 0;
+        transform: translate(20px, 0);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translate(0, 0);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+header {
+    animation: jumpin 1s 2s both;
+}
+
+section.intro {
+    animation: jumpin 3s;
+}
+
+a.heart {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+   background-image: url('img/heart.svg');
+    background-position: top left;
+}
